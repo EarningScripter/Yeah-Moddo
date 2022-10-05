@@ -11,12 +11,12 @@ var padding = {top:0, right:0, bottom:0, left:0},
             //randomNumbers = getRandomNumbers();
         
         var data = [
-                    {"label":"Tiger", "value":1, "xp":"Dragon Will Come"},
-                    {"label":"Dragon", "value":1, "xp":"Tiger Will Come"},
-                    {"label":"Tiger", "value":1, "xp":"Dragon Will Come"},
-                    {"label":"Dragon", "value":1, "xp":"Tiger Will Come"},
-                    {"label":"Tiger", "value":1, "xp":"Dragon Will Come"},
-                    {"label":"Dragon", "value":1, "xp":"Tiger Will Come"}
+                    {"label":"Tiger", "value":1, "xp":"Tiger Will Come"},
+                    {"label":"Dragon", "value":1, "xp":"Dragon Will Come"},
+                    {"label":"Tiger", "value":1, "xp":"Tiger Will Come"},
+                    {"label":"Dragon", "value":1, "xp":"Dragon Will Come"},
+                    {"label":"Tiger", "value":1, "xp":"Tiger Will Come"},
+                    {"label":"Dragon", "value":1, "xp":"Dragon Will Come"}
         ];
         var svg = d3.select('#spinwheel')
             .append("svg")
